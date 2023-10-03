@@ -1,0 +1,28 @@
+packege bank;
+
+public class transactions {
+
+   public static void int balance=2000;
+
+   public void withdraw(wdamount)
+   {
+   if (wdamount <=balance)
+   {
+   system.out.println("balance amount----"+balance);
+   balance=(balance-wdamount);
+   system.out.println("afterwithdraw amount---"+balance);
+   }
+   else
+   {
+   system.out.println("insuffecient fund try after some time---")
+   }
+   }
+
+   public void deposite (dpamount)
+   {
+   system.out.println("deposite amount--"+dpamount);
+   balance=(balance+dpamount);
+   system.out.println("after deposite balance amount--"+balance);
+   }
+   system.out.println("thankq visit again--")
+   }
