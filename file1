@@ -7,6 +7,12 @@ public class transactions {
    public void withdraw(wdamount)
    {
    if (wdamount <=balance)
+try ()
+Thread.sleep(1000)
+
+catch(exception e)
+{
+system.out.println(e);
    {
    system.out.println("balance amount----"+balance);
    balance=(balance-wdamount);
