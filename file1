@@ -31,4 +31,7 @@ system.out.println(e);
    system.out.println("after deposite balance amount--"+balance);
    }
    system.out.println("thankq visit again--")
-   }
+system.out.println("------------");
+}
+
+}
